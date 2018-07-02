@@ -11,6 +11,7 @@ type
   private
     { Private declarations }
   public
+    procedure PrimeiroMetodo;
     { Public declarations }
   end;
 
@@ -20,5 +21,12 @@ var
 implementation
 
 {$R *.dfm}
+
+{ TForm1 }
+
+procedure TForm1.PrimeiroMetodo;
+begin
+
+end;
 
 end.
